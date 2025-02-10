@@ -11,6 +11,10 @@ green='\033[92m'
 clear
 sleep 1.5
 echo -e "$default"
-git clone https://github.com/GinjaChris/pentmenu.git
-cd Pentmenu
-./Pentmenu
+pkg update && pkg upgrade
+pkg install git
+pkg install python
+pip install colorama
+git clone https://github.com/iamunixtz/Termux-Hydra.git
+cd Termux-Hydra
+python setup.py
