@@ -1,7 +1,9 @@
+orange='\e[38;5;166m'
+
 clear
 sleep 1.5
 echo -e "$default"
-figlet " TermuxButLinux "
+figlet'\e[38;5;166m'" TermuxButLinux "
 echo "| Note: If bash metasploitframework.sh doesn't work, try msfconsole.sh |"
 echo "| What would you like to do?                                           |"
 echo "| Github: https://github.com/babarich456/TermuxButLinux.git            |"
