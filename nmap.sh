@@ -13,9 +13,5 @@ sleep 1.5
 echo -e "$default"
 apt update
 apt upgrade
-pkg install git
-pkg install python3
-git clone https://github.com/HunxByts/GhostTrack.git
-cd GhostTrack
-pip3 install -r requirements.txt
-python3 GhostTR.py
+pkg install nmap
+nmap
