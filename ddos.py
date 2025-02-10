@@ -11,10 +11,6 @@ green='\033[92m'
 clear
 sleep 1.5
 echo -e "$default"
-pkg install git -y
-pkg install python -y
-pkg install python3 -y
-git clone https://github.com/palahsu/DDoS-Ripper.git
-cd DDoS-Ripper
-ls
-python3 DRipper.py
+git clone https://github.com/GinjaChris/pentmenu.git
+cd Pentmenu
+./Pentmenu
