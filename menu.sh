@@ -1,7 +1,8 @@
 clear
 sleep 1.5
 echo -e "$default"
-figlet " TermuxButLinux "
+figlet " >TermuxButLinux_ "
+echo "------------------------------------------------------------------------------------"
 echo "| Note: If bash msfconsole.sh doesn't work, try metasploitframework.sh             |"
 echo "| GitHub: https://github.com/babarich456/TermuxButLinux.git                        |" 
 echo "| What would you like to do?                                                       |"
@@ -15,5 +16,7 @@ echo "| bash metasploitframework.sh                                             
 echo "| bash msfconsole.sh                                                               |"
 echo "| Write One:                                                                       |"
 echo "------------------------------------------------------------------------------------"
-echo "  Example:                                                                          "
-echo "  bash nmap.sh                                                                      "
+echo "| Example:                                                                         |"
+echo "| bash nmap.sh                                                                     |"
+echo "| Write One:                                                                       |"
+echo "------------------------------------------------------------------------------------"
