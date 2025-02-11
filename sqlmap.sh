@@ -12,10 +12,6 @@ clear
 sleep 1.5
 echo -e "$default"
 apt update && apt upgrade -y
-apt install ruby postgresql clang python2 python git
-git clone https://github.com/rapid7/metasploit-framework
-cd metasploit-framework/
-gem install bundle
-gem install bundler
-bundle install
-ruby msfconsole
+git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
+python sqlmap.py -h
+python sqlmap.py -hh
