@@ -1,7 +1,7 @@
 clear
 sleep 1.5
 echo -e "$default"
-figlet " >TermuxButLinux_ "
+figlet " TermuxButLinux "
 echo "------------------------------------------------------------------------------------"
 echo "| Note: If bash msfconsole.sh doesn't work, try metasploitframework.sh             |"
 echo "| GitHub: https://github.com/babarich456/TermuxButLinux.git                        |" 
